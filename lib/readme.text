@@ -1,0 +1,25 @@
+ls('*.js').forEach(function(v) {
+	// var str = cat('-n', v);
+	// echo('hello world');
+	// var obj = echo('hello world');
+	// console.dir(Object.getOwnPropertyNames(obj));
+	// echo('-n', 'no newline at end');
+});
+
+rm('-rf', '../out');
+cp('-R', '../lib', '../out');
+
+var obj = exec('node --version', {
+	silent: true
+}).stdout;
+
+console.log(obj);
+
+
+一键启动功能：
+	1.有道云笔记
+	2.Sublime编辑器
+	3.APP项目
+	4.模拟器/模拟器连接
+
+自动构建功能：

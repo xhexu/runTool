@@ -1,0 +1,24 @@
+{
+  "name": "processcli",
+  "version": "1.0.0",
+  "description": "process ctroll cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "workflow",
+    "cli",
+    "auto",
+    "cli"
+  ],
+  "author": "hx",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "cli-color": "^1.2.0",
+    "iconv-lite": "^0.4.23",
+    "shelljs": "^0.8.2",
+    "underscore": "^1.9.1"
+  }
+}

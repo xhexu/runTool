@@ -1,0 +1,18 @@
+{
+    "Grunt": "D:/GIT_APP/dev/HRPMobileOffice/HRPApp2.0/builder/grunt/dev/",
+    "Watch": "D:/ZeroProject/RubikCube/www",
+    "IgnoreExt": [
+        "json",
+        "html",
+        "png",
+        "jpeg"
+    ],
+    "IgnoreFile": [
+        "kyee.build.all.js"
+    ],
+    "OneKeyStart": {
+        "YoudaoNote": "C:/Program Files (x86)/Youdao/YoudaoNote/",
+        "sublime_text": "D:/Program Files/Sublime Text 3/",
+        "NemuPlayer": "C:/Program Files (x86)/MuMu/emulator/nemu/EmulatorShell/"
+    }
+}
